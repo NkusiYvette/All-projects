@@ -1,0 +1,28 @@
+h2{
+    margin-left: 700px;
+}
+img{
+    width: 10%;
+    height: 150px;
+    border-radius: 85px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+p{
+    margin-left: 90px;
+}
+footer{
+    background-color: rgb(76, 187, 187);
+   padding-left: 500px;
+   display: flex;
+}
+button{
+    margin-left: 700px;
+    background-color: rgb(45, 170, 170);
+}
+a{
+    margin-left: 20px;
+    margin-right: 80px;
+    text-decoration: none;
+}

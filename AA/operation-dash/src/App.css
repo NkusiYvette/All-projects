@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat',sans-serif;
+    
+  }
+  body{
+    background-color: white;
+  }
+  
+.menu
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+    height: 94vh;
+    background-color: #000000;
+    width:300px;
+  
+}
+
+.logo
+{
+    text-align: center;
+    padding: 20px 50px;
+    color: black;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+
+}
+.line
+{
+background-color: red;
+}
+.logo-icon
+{
+   width: 82px;
+   height: 75px;
+  
+}
+.menu--list
+{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    
+}
+.menu--list .item
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 200;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    color: #abcde2;
+    width: 150%;
+  
+}
+.menu--list .item:hover,
+.active
+{
+    
+    color: rgb(5, 5, 62) ! important;
+    cursor: pointer;
+   
+ 
+}
+
+
+
+/*Content*/
+.dashboard
+{
+    display: flex;
+    gap: 80px;
+}
+.dashboard-content
+{
+    background-color: white;
+    flex: 1;
+    border-radius: 20px;
+    padding: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+
+
+
+.content{
+    width: 75%;
+}
+.content--header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header--title
+{
+    color: rgb(182, 180, 180);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.card-container
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 2rem;
+}
+.card{
+    flex:1;
+    background: #dde6ed;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    transition: 0.5s ease-in-out;
+}
+.card:hover
+{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.card--cover
+{
+    background-color: #fff;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    color: #969393;
+
+}
+.card--title
+{
+    background: #ffffffc0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #526d82;
+    border: 10px;
+}
+.list-header
+{
+    display: flex;
+    margin: 2.5rem 0;
+    justify-content: space-between;
+}
+.list-header h2{
+    color: #526d82;
+}
+.list-container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.list
+{
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s ease-in-out;
+    height: 40px;
+}
+
+.teacher-detail
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #526d82;
+
+}
+.teacher-detail img
+{
+    width: 50px;
+    background-color: #dde6ed;
+    border-radius: 50%;
+}
+.list
+{
+    background: #dde6ed;
+    border-radius: 10px;
+  
+}
+
+.profile
+{
+    flex: 1;
+}
+
+.user-detail
+{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.user-header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hello
+{
+    background-color: #dde6ed;
+    flex: 1;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.user-detail .username
+{
+    color: #526d82;
+}
+.user-courses
+{
+    background-color: #fff;
+    flex: 1;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.course:hover
+{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.course
+{
+background-color: #dde6ed;
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-radius: 10px;
+}
+.course-detail
+{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.course-cover
+{
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 20px;
+
+}
+.course .duration
+{
+    font-size: 12px;
+}

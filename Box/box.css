@@ -1,0 +1,23 @@
+.container-1{
+display: flex;
+justify-content: center;
+}
+.container-1 div{
+    border: 1px solid rgb(183, 100, 100);
+    width: 100px;
+    padding: 10px;
+    flex-grow: 2;
+    
+}
+.box-1{
+order: 3;
+
+}
+.box-2{
+order:1 ;
+
+}
+.box-3{
+order: 2;
+
+}
